@@ -1,0 +1,68 @@
+.menuBody {
+	background : black;
+	background-repeat : no-repeat;
+	background-size : 100%;
+}
+
+.pageHeader {
+	color : white;
+	font-size : 5em;
+	margin-left : 1rem;
+    font-family: 'Poiret One', cursive;
+}
+
+.topicHeader{
+	float : left;
+}
+
+#clock {
+	padding : 1rem;
+	float : right;
+	margin-right : 5rem;
+	background : tan;
+	border-radius : 5rem;
+	/*box-shadow: 1.1rem -1rem 3rem burlywood;*/
+	border-style: inset;
+	border-width: 2rem;
+	border-color: burlywood;
+}
+
+
+#topicCardSet {
+	width : 65rem;
+	height : 40rem;
+	float : left;
+	margin-left : 2rem;
+	margin-top : 2rem;
+}
+
+.topicCard {
+	width : 15rem;
+	height : 15rem;
+	margin-right : 0.5rem;
+	margin-top : 0.5rem;
+	border-radius : 1rem;
+	-webkit-filter: brightness(65%);
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.topicCard:hover {
+	-webkit-filter: brightness(130%);
+}
+
+#questionTemplateBody {
+	background : #3B653D;	
+}
+
+#timer {
+	background : white;
+	width : 10rem;
+	height : 10rem;
+	float : right;
+	margin-right : 2rem;
+	margin-top : 2rem;
+}
