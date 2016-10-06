@@ -21,7 +21,6 @@
 	margin-right : 5rem;
 	background : tan;
 	border-radius : 5rem;
-	/*box-shadow: 1.1rem -1rem 3rem burlywood;*/
 	border-style: inset;
 	border-width: 2rem;
 	border-color: burlywood;
@@ -65,4 +64,40 @@
 	float : right;
 	margin-right : 2rem;
 	margin-top : 2rem;
+}
+
+.mathQuestionTemplate {
+	float: left;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.question {
+	font-size : 5rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.option {
+    height: 3rem;
+    border-radius: 1rem;
+    border-width: 3px;
+    border-color: black;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.correctAnswer {
+	background : green;
+}
+
+.wrongAnswer {
+	background : red;
+}
+
+#questionTemplate {
+	float: left;
+}
+
+.countdownTimer {
+	
 }
